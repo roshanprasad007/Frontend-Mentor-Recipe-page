@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  line-height: 1;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 5rem;
+}
+section {
+  margin-top: 2rem;
+}
+main {
+  max-width: 90rem;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3rem;
+}
+.imagebox {
+  padding: 4rem 4rem 3rem 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.image {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+.titlebox {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 4rem;
+  padding-bottom: 2.5rem;
+}
+.title {
+  font-family: "Young Serif", serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+.des {
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.preptime {
+  padding-bottom: 2rem;
+}
+.Prep {
+  padding: 2rem 4rem 2rem 3rem;
+  background-color: hsl(330, 100%, 98%);
+  margin: 0 4rem;
+  border-radius: 2rem;
+}
+.Preptitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 2.4rem;
+}
+.preplist {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.prepitem {
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  margin-left: 2.2rem;
+  padding-left: 2.2rem;
+}
+.ing {
+  padding: 1rem 2rem 3rem 4rem;
+}
+.ingtitle {
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.inglist {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid lightgray;
+}
+
+.ingitem {
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  padding-left: 2.5rem;
+  margin-left: 3rem;
+}
+
+.Instructions {
+  padding: 0 4rem;
+}
+.institle {
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.inslist {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid lightgray;
+}
+.insitem {
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  padding-left: 2rem;
+  margin-left: 3rem;
+  line-height: 3rem;
+}
+
+.Nutrition {
+  margin-top: 2rem;
+  padding: 0 4rem;
+  margin-bottom: 5rem;
+}
+.nuttitle {
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.nutdes {
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 2rem;
+}
+.Nutritiontable {
+  padding-bottom: 1.5rem;
+}
+.Nutritiontable .item {
+  display: flex;
+  font-family: "Outfit", sans-serif;
+  font-size: 400;
+  border-bottom: 2px solid lightgray;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-left: 3rem;
+}
+.Nutritiontable .item:last-child {
+  border: none;
+}
+
+.Nutritiontable .item p:nth-child(2) {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+
+.Nutritiontable .item > * {
+  width: 100%;
+  margin-right: auto;
+}
+
+strong {
+  color: hsl(24, 5%, 18%);
+}
+.attribution {
+  font-size: 2rem;
+  text-align: center;
+}
+.attribution a {
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+@media (max-width: 930px) {
+  main {
+    max-width: 70rem;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 610px) {
+  main {
+    max-width: 50rem;
+  }
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 410px) {
+  main {
+    max-width: 45rem;
+  }
+  html {
+    font-size: 40%;
+  }
+}
